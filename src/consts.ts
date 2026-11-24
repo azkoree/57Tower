@@ -87,12 +87,12 @@ export { FRIEND_LINKS } from "./config/friend-links";
 
 // 评论系统配置，当前提供方为 giscus。
 export const COMMENTS = {
-  enabled: false,
+  enabled: true,
   provider: "giscus",
-  repo: "owner/repository",
-  repoId: "",
+  repo: "azkoree/57Tower",
+  repoId: "R_kgDOV6K93Q",
   category: "Announcements",
-  categoryId: "",
+  categoryId: "DIC_kwDOV6K93c4DL342",
   mapping: "pathname",
   themeLight: "light_protanopia",
   themeDark: "transparent_dark",
